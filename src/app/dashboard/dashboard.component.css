@@ -1,0 +1,17 @@
+.dashboard {
+  margin: 0 10%;
+}
+
+.dashboard-box {
+  box-shadow: 2px 3px 5px 2px #888888;
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  width: 500px;
+}
+.bm-container {
+  display: flex;
+  justify-content: space-between;
+}
