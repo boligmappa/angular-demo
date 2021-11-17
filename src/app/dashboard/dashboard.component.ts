@@ -21,4 +21,16 @@ export class DashboardComponent implements OnInit {
 
     //...
   }
+  config = {
+    clientId: 'alpha-client',
+    idObject: '{"userId": "martin"}',
+    saveTokenEndpoint: {
+      endpointUrl: 'https://localhost:5001/tokenHandler/Save',
+      method: 'POST',
+    },
+    retrieveTokenEndpoint: {
+      endpointUrl: 'https://localhost:5001/tokenHandler/Retrieve',
+      method: 'POST',
+    },
+  };
 }

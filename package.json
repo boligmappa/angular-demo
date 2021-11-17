@@ -18,7 +18,10 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
-    "@boligmappa/web-components": "^0.0.6",
+    "@boligmappa/web-components": "^0.1.4",
+    "@mbsmebye/web-component-auth": "^0.1.13",
+    "@mbsmebye/web-component-search": "^0.1.6",
+    "@mbsmebye/web-components": "^0.0.6",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
