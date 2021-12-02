@@ -11,10 +11,8 @@ export class BoligmappaAuthWrapperComponent implements OnInit {
   config = {
     clientId: 'alpha-client',
     idObject: '{"userId": "1234"}',
-    saveTokenEndpoint: {
-      endpointUrl: 'https://localhost:5001/tokenHandler/Save',
-      method: 'POST',
-      headers: new Headers({ Authorization: 'test' }),
+    authCodeEndpoint: {
+      endpointUrl: 'https://localhost:5001/tokenProvider/Exchange',
     },
   };
 
